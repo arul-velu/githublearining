@@ -2,7 +2,7 @@ name: firstaction
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: Windows 10 64-bit
+    runs-on: Windows-latest
     steps:
       - name: testing
         run: echo "hello world"
